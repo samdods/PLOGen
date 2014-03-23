@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>#Label</key>
+	<dict>
+		<key>title</key>
+		<dict>
+			<key>font(UIFont)</key>
+			<dict>
+				<key>name</key>
+				<string>Menlo</string>
+				<key>size</key>
+				<integer>19</integer>
+			</dict>
+			<key>text</key>
+			<string>Title Label</string>
+			<key>color(UIColor)</key>
+			<string>0,0,200</string>
+		</dict>
+		<key>subtitle</key>
+		<dict>
+			<key>font(UIFont)</key>
+			<dict>
+				<key>name</key>
+				<string>Menlo</string>
+				<key>size</key>
+				<integer>19</integer>
+			</dict>
+			<key>text</key>
+			<string>Title Label</string>
+			<key>color(UIColor)</key>
+			<string>0,0,200</string>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>font(UIFont)</key>
+			<dict>
+				<key>name</key>
+				<string>Menlo</string>
+				<key>size</key>
+				<integer>19</integer>
+			</dict>
+			<key>text</key>
+			<string>Title Label</string>
+			<key>color(UIColor)</key>
+			<string>0,0,200</string>
+		</dict>
+	</dict>
+	<key>defaultFont(UIFont)</key>
+	<dict>
+		<key>name</key>
+		<string>Helvetica</string>
+		<key>size</key>
+		<string>17</string>
+	</dict>
+	<key>groupedLabels</key>
+	<dict>
+		<key>#Label</key>
+		<dict>
+			<key>header</key>
+			<dict>
+				<key>font(UIFont)</key>
+				<dict>
+					<key>name</key>
+					<string>Helvetica-Bold</string>
+					<key>size</key>
+					<integer>18</integer>
+				</dict>
+				<key>text</key>
+				<string>Grouped Label Header</string>
+				<key>color(UIColor)</key>
+				<string>255,100,0</string>
+			</dict>
+			<key>body</key>
+			<dict>
+				<key>font(UIFont)</key>
+				<dict>
+					<key>name</key>
+					<string>Helvetica</string>
+					<key>size</key>
+					<integer>16</integer>
+				</dict>
+				<key>text</key>
+				<string>Grouped Label Body</string>
+				<key>color(UIColor)</key>
+				<string>100,255,200</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

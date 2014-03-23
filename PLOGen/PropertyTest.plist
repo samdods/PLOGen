@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>normalProperty</key>
+	<string>value</string>
+	<key>subRoot</key>
+	<dict/>
+	<key>convertedFromString(UIColor)</key>
+	<string>sourceValue</string>
+	<key>convertedFromDictionary(UIFont)</key>
+	<dict>
+		<key>key1</key>
+		<string>value1</string>
+		<key>key2</key>
+		<string>value2</string>
+	</dict>
+	<key>#listOfConverted(UIColor)</key>
+	<dict>
+		<key>convertedFromString</key>
+		<string>value</string>
+		<key>convertedFromDictionary</key>
+		<dict>
+			<key>key1</key>
+			<string>value1</string>
+			<key>key2</key>
+			<string>value2</string>
+		</dict>
+	</dict>
+	<key>#listOfMyType</key>
+	<dict>
+		<key>myTypeObj1</key>
+		<dict>
+			<key>normalProperty</key>
+			<string>something</string>
+			<key>anotherProperty</key>
+			<integer>27</integer>
+		</dict>
+		<key>myTypeObj2</key>
+		<dict>
+			<key>normalProperty</key>
+			<string>something</string>
+			<key>anotherProperty</key>
+			<integer>30</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

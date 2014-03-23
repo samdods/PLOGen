@@ -10,6 +10,8 @@
 		EA43428018DC5E0B0015685D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA43427F18DC5E0B0015685D /* Foundation.framework */; };
 		EA43428318DC5E0B0015685D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA43428218DC5E0B0015685D /* main.m */; };
 		EA43428718DC5E0B0015685D /* MacTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA43428618DC5E0B0015685D /* MacTest.1 */; };
+		EA43429018DC5E5D0015685D /* EnvironmentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA43428F18DC5E5D0015685D /* EnvironmentHelper.m */; };
+		EA43429418DC81FD0015685D /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA43429318DC81FD0015685D /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EA43427C18DC5E0B0015685D /* MacTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA43427C18DC5E0B0015685D /* PLOGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PLOGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA43427F18DC5E0B0015685D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA43428218DC5E0B0015685D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA43428518DC5E0B0015685D /* MacTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTest-Prefix.pch"; sourceTree = "<group>"; };
+		EA43428518DC5E0B0015685D /* PLOGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLOGen-Prefix.pch"; sourceTree = "<group>"; };
 		EA43428618DC5E0B0015685D /* MacTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MacTest.1; sourceTree = "<group>"; };
+		EA43428E18DC5E5D0015685D /* EnvironmentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentHelper.h; sourceTree = "<group>"; };
+		EA43428F18DC5E5D0015685D /* EnvironmentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentHelper.m; sourceTree = "<group>"; };
+		EA43429218DC81FD0015685D /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		EA43429318DC81FD0015685D /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		EA4342E918DE55090015685D /* PropertyTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyTest.plist; sourceTree = "<group>"; };
+		EA4343A918DF0F000015685D /* Theme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Theme.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		EA43427318DC5E0B0015685D = {
 			isa = PBXGroup;
 			children = (
-				EA43428118DC5E0B0015685D /* MacTest */,
+				EA43428118DC5E0B0015685D /* PLOGen */,
 				EA43427E18DC5E0B0015685D /* Frameworks */,
 				EA43427D18DC5E0B0015685D /* Products */,
 			);
@@ -57,7 +65,7 @@
 		EA43427D18DC5E0B0015685D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA43427C18DC5E0B0015685D /* MacTest */,
+				EA43427C18DC5E0B0015685D /* PLOGen */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,20 +78,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA43428118DC5E0B0015685D /* MacTest */ = {
+		EA43428118DC5E0B0015685D /* PLOGen */ = {
 			isa = PBXGroup;
 			children = (
+				EA43428E18DC5E5D0015685D /* EnvironmentHelper.h */,
+				EA43428F18DC5E5D0015685D /* EnvironmentHelper.m */,
 				EA43428218DC5E0B0015685D /* main.m */,
 				EA43428618DC5E0B0015685D /* MacTest.1 */,
 				EA43428418DC5E0B0015685D /* Supporting Files */,
+				EA43429218DC81FD0015685D /* NSString+Additions.h */,
+				EA43429318DC81FD0015685D /* NSString+Additions.m */,
 			);
-			path = MacTest;
+			path = PLOGen;
 			sourceTree = "<group>";
 		};
 		EA43428418DC5E0B0015685D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA43428518DC5E0B0015685D /* MacTest-Prefix.pch */,
+				EA4343A918DF0F000015685D /* Theme.plist */,
+				EA4342E918DE55090015685D /* PropertyTest.plist */,
+				EA43428518DC5E0B0015685D /* PLOGen-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA43427B18DC5E0B0015685D /* MacTest */ = {
+		EA43427B18DC5E0B0015685D /* PLOGen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA43428A18DC5E0B0015685D /* Build configuration list for PBXNativeTarget "MacTest" */;
+			buildConfigurationList = EA43428A18DC5E0B0015685D /* Build configuration list for PBXNativeTarget "PLOGen" */;
 			buildPhases = (
 				EA43427818DC5E0B0015685D /* Sources */,
 				EA43427918DC5E0B0015685D /* Frameworks */,
@@ -103,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = MacTest;
+			name = PLOGen;
 			productName = MacTest;
-			productReference = EA43427C18DC5E0B0015685D /* MacTest */;
+			productReference = EA43427C18DC5E0B0015685D /* PLOGen */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +131,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sam Dods";
 			};
-			buildConfigurationList = EA43427718DC5E0B0015685D /* Build configuration list for PBXProject "MacTest" */;
+			buildConfigurationList = EA43427718DC5E0B0015685D /* Build configuration list for PBXProject "PLOGen" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA43427B18DC5E0B0015685D /* MacTest */,
+				EA43427B18DC5E0B0015685D /* PLOGen */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA43428318DC5E0B0015685D /* main.m in Sources */,
+				EA43429418DC81FD0015685D /* NSString+Additions.m in Sources */,
+				EA43429018DC5E5D0015685D /* EnvironmentHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +236,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacTest/MacTest-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PLOGen/PLOGen-Prefix.pch";
+				PRODUCT_NAME = PLOGen;
 			};
 			name = Debug;
 		};
@@ -229,15 +245,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacTest/MacTest-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PLOGen/PLOGen-Prefix.pch";
+				PRODUCT_NAME = PLOGen;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA43427718DC5E0B0015685D /* Build configuration list for PBXProject "MacTest" */ = {
+		EA43427718DC5E0B0015685D /* Build configuration list for PBXProject "PLOGen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA43428818DC5E0B0015685D /* Debug */,
@@ -246,13 +262,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA43428A18DC5E0B0015685D /* Build configuration list for PBXNativeTarget "MacTest" */ = {
+		EA43428A18DC5E0B0015685D /* Build configuration list for PBXNativeTarget "PLOGen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA43428B18DC5E0B0015685D /* Debug */,
 				EA43428C18DC5E0B0015685D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
